@@ -1,0 +1,19 @@
+.input {
+  width: 100%;
+  height: 56px;
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--grey-light);
+  margin-bottom: 14px;
+}
+.input:last-of-type {
+  height: 114px;
+  margin-bottom: 24px;
+}
+.p {
+  margin-bottom: 24px;
+}
+.title {
+  margin-bottom: 8px;
+}

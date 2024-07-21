@@ -1,0 +1,6 @@
+.btn {
+  background-color: var(--red);
+  border-radius: 200px;
+  padding: 16px 50px;
+  width: fit-content;
+}

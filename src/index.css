@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import "modern-normalize/modern-normalize.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  --white: #ffffff;
+  --black: #101828;
+  --dark-gray: #475467;
+  --red: #e44848;
+  --orange: #ffc531;
+  --grey-medium: #f2f4f7;
+  --grey-light: #f7f7f7;
+  --border: rgba(16, 24, 40, 0.2);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  width: 1440px;
+  font-family: "Inter", sans-serif;
+  padding: 64px;
+  margin: 0;
+  background-color: var(--white);
+}
+
+textarea {
+  font-family: inherit;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.noScroll {
+  overflow: hidden;
+}
